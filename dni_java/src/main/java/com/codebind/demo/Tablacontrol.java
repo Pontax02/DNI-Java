@@ -7,7 +7,7 @@ public class Tablacontrol {
             'N', 'J', 'Z', 'S', 'Q', 'V',
             'H', 'L', 'C', 'K', 'E'};
 
-    Tablacontrol(){};
+
 
         char get_letra_tabla(int position) throws ArrayIndexOutOfBoundsException{
             try{
