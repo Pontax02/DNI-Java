@@ -22,9 +22,7 @@ public class Tablacontrol {
 
             }
     }
-
-
-
+        
 
 
 

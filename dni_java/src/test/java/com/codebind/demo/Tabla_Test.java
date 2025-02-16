@@ -13,9 +13,20 @@ public class Tabla_Test {
         tabla = new Tablacontrol();
     }
 
+
+
+
+
+
     @Test
     public void get_letra_tabla_Test() {
         assertEquals('T',tabla.get_letra_tabla(0));
         assertEquals('E',tabla.get_letra_tabla(22));
     }
+
+
+
+
+
+
 }
