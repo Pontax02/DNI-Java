@@ -24,7 +24,10 @@ public class Tabla_Test {
         assertEquals('E',tabla.get_letra_tabla(22));
     }
 
-
+    @Test(expected = ArrayIndexOutOfBoundsException.class)
+    public void get_letra_fuera_rango_Test() {
+        tabla.get_letra_tabla(100);
+    }
 
 
 
